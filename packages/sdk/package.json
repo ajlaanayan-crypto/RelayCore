@@ -1,0 +1,8 @@
+{
+  "name": "@nexusflag/sdk",
+  "version": "1.0.0",
+  "description": "Zero-network in-memory feature evaluation engine for NexusFlag",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["feature-flags", "remote-config", "murmurhash3", "ast-evaluation", "sse"]
+}
