@@ -150,7 +150,7 @@ export const AuditLedger: React.FC<AuditLedgerProps> = ({ environment }) => {
 
                   <div className="flex items-center gap-4 text-right font-mono text-[11px]">
                     <div className="text-slate-400">{log.actor}</div>
-                    <div className="text-slate-500">
+                    <div className="text-slate-500" suppressHydrationWarning>
                       {new Date(log.timestamp).toLocaleTimeString([], {
                         hour: '2-digit',
                         minute: '2-digit',
